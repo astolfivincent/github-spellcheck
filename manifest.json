@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Spellcheck for Github",
+  "description": "Allows for Spellchecking on Github file editors",
+  "version": "1.2",
+  "icons": {"16": "icon16.png", "48": "icon48.png", "128": "icon128.png"},
+  "background":{
+      "scripts":["jquery.js","background.js"]
+  },
+  "content_scripts": [ {
+    "js": ["jquery.js", "content_script.js"],
+    "matches": [ "https://github.com/*", "https://www.github,com/*"]
+  } ],
+  "permissions": [
+    "contextMenus",
+    "tabs",
+	"https://github.com/*"
+  ]
+}
