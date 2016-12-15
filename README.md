@@ -1,6 +1,6 @@
-# Github Spellcheck
+# Github Spellcheck - Chrome Extension
 
-Enables spellcheck on github text editors when editing markdown files.
+A chrome extension that enables spellcheck on github text editors when editing markdown files.
 
 ## Installation
 
